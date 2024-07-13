@@ -1,0 +1,11 @@
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\obj\Debug\ConsumirAPI.DA.csproj.AssemblyReference.cache
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\obj\Debug\ConsumirAPI.DA.csproj.CoreCompileInputs.cache
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\bin\Debug\ConsumirAPI.DA.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\bin\Debug\ConsumirAPI.DA.pdb
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\bin\Debug\ConsumirAPI.BE.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\bin\Debug\UtilitariosConexionDA.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\bin\Debug\UtilitariosConexionUtil.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\bin\Debug\ConsumirAPI.BE.pdb
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\obj\Debug\Consumir.72B8135C.Up2Date
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\obj\Debug\ConsumirAPI.DA.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.DA\obj\Debug\ConsumirAPI.DA.pdb

@@ -1,0 +1,6 @@
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BE\bin\Debug\ConsumirAPI.BE.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BE\bin\Debug\ConsumirAPI.BE.pdb
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BE\obj\Debug\ConsumirAPI.BE.csproj.AssemblyReference.cache
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BE\obj\Debug\ConsumirAPI.BE.csproj.CoreCompileInputs.cache
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BE\obj\Debug\ConsumirAPI.BE.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BE\obj\Debug\ConsumirAPI.BE.pdb

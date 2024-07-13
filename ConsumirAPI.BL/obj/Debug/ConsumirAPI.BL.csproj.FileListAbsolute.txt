@@ -1,0 +1,15 @@
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\obj\Debug\ConsumirAPI.BL.csproj.AssemblyReference.cache
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\obj\Debug\ConsumirAPI.BL.csproj.CoreCompileInputs.cache
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\ConsumirAPI.BL.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\ConsumirAPI.BL.pdb
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\ConsumirAPI.BE.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\ConsumirAPI.DA.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\UtilitariosConexionDA.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\UtilitariosConexionUtil.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\ConsumirAPI.BE.pdb
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\ConsumirAPI.DA.pdb
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\obj\Debug\Consumir.9C9D3A0A.Up2Date
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\obj\Debug\ConsumirAPI.BL.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPI.BL\obj\Debug\ConsumirAPI.BL.pdb

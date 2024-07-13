@@ -1,0 +1,6 @@
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPIBE\bin\Debug\ConsumirAPIBE.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPIBE\bin\Debug\ConsumirAPIBE.pdb
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPIBE\obj\Debug\ConsumirAPIBE.csproj.AssemblyReference.cache
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPIBE\obj\Debug\ConsumirAPIBE.csproj.CoreCompileInputs.cache
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPIBE\obj\Debug\ConsumirAPIBE.dll
+C:\Users\svigo\source\repos\ProyectoTEST\ConsumirAPIBE\obj\Debug\ConsumirAPIBE.pdb
