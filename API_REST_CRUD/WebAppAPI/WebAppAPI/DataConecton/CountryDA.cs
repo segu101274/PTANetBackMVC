@@ -55,5 +55,85 @@ namespace WebAppAPI.DataConecton
             }
             return oCountry;
         }
+
+        public String Registrar(Country obj)
+        {
+            string mensaje = "";
+            using (SqlConnection cn = new ConexionDA().getcn)
+            {
+                try
+                {
+                    cn.Open();
+                    SqlCommand cmd = new SqlCommand("sp_RegisterCountry", cn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@country", obj.country);
+                    cmd.Parameters.AddWithValue("@countryCode", obj.countryCode);
+                    cmd.CommandTimeout = 0;
+                    Int32 resultado = cmd.ExecuteNonQuery();
+                    if (resultado > 0)
+                        mensaje = "Se procedio con el registro en la base de datos.";
+                    else
+                        mensaje = "Error: No se ha realizado el registro";
+                }
+                catch (Exception ex) { mensaje = ex.Message; }
+                finally { cn.Close(); }
+            }
+            return mensaje;
+
+        }
+
+        public String Actualizar(Country obj)
+        {
+            string mensaje = "";
+            using (SqlConnection cn = new ConexionDA().getcn)
+            {
+                try
+                {
+                    cn.Open();
+                    SqlCommand cmd = new SqlCommand("sp_UpdateCountry", cn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@idCountry", obj.idCountry);
+                    cmd.Parameters.AddWithValue("@country", obj.country);
+                    cmd.Parameters.AddWithValue("@countryCode", obj.countryCode);
+                    cmd.CommandTimeout = 0;
+                    Int32 resultado = cmd.ExecuteNonQuery();
+                    if (resultado > 0)
+                        mensaje = "Se actualizo el registro en la base de datos.";
+                    else
+                        mensaje = "Error: No se ha encontrado el registro para actualizar";
+                   
+                }
+                catch (Exception ex) { mensaje = ex.Message; }
+                finally { cn.Close(); }
+            }
+            return mensaje;
+
+        }
+
+        public String Eliminar(Int32 Id)
+        {
+            string mensaje = "";
+            using (SqlConnection cn = new ConexionDA().getcn)
+            {
+                try
+                {
+                    cn.Open();
+                    SqlCommand cmd = new SqlCommand("sp_DeleteCountry", cn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@idCountry", Id);
+                    cmd.CommandTimeout = 0;
+                    Int32 resultado = cmd.ExecuteNonQuery();
+                    if (resultado > 0)
+                        mensaje = "Se elimino el registro en la base de datos.";
+                    else
+                        mensaje = "Error: No se ha podido eliminar el registro";
+
+                }
+                catch (Exception ex) { mensaje = ex.Message; }
+                finally { cn.Close(); }
+            }
+            return mensaje;
+
+        }
     }
 }

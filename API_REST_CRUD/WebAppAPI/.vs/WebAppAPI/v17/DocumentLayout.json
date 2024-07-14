@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|c:\\users\\svigo\\source\\repos\\evaluacionsvc\\api_rest_crud\\webappapi\\webappapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|solutionrelative:webappapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|c:\\users\\svigo\\source\\repos\\evaluacionsvc\\api_rest_crud\\webappapi\\webappapi\\dataconecton\\countryda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|solutionrelative:webappapi\\dataconecton\\countryda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|c:\\users\\svigo\\source\\repos\\evaluacionsvc\\api_rest_crud\\webappapi\\webappapi\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|solutionrelative:webappapi\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|c:\\users\\svigo\\source\\repos\\evaluacionsvc\\api_rest_crud\\webappapi\\webappapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|solutionrelative:webappapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|c:\\users\\svigo\\source\\repos\\evaluacionsvc\\api_rest_crud\\webappapi\\webappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1541F42-CC37-453A-93FE-C29C5D2722AA}|WebAppAPI\\WebAppAPI.csproj|solutionrelative:webappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CountryDA.cs",
+              "DocumentMoniker": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\DataConecton\\CountryDA.cs",
+              "RelativeDocumentMoniker": "WebAppAPI\\DataConecton\\CountryDA.cs",
+              "ToolTip": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\DataConecton\\CountryDA.cs*",
+              "RelativeToolTip": "WebAppAPI\\DataConecton\\CountryDA.cs*",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAIIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T18:05:11.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "WebAppAPI\\Models\\Country.cs",
+              "ToolTip": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\Models\\Country.cs",
+              "RelativeToolTip": "WebAppAPI\\Models\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T16:10:03.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "WebAppAPI\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\Controllers\\CountryController.cs*",
+              "RelativeToolTip": "WebAppAPI\\Controllers\\CountryController.cs*",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T09:25:34.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAppAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAppAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-13T22:39:07.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\svigo\\source\\repos\\EvaluacionSVC\\API_REST_CRUD\\WebAppAPI\\WebAppAPI\\Program.cs",
+              "RelativeToolTip": "WebAppAPI\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAWwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T22:27:47.915Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

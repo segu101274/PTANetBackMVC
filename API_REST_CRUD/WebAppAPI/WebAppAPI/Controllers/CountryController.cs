@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WebAppAPI.Models;
 using WebAppAPI.DataConecton;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace WebAppAPI.Controllers
 {
@@ -10,25 +11,49 @@ namespace WebAppAPI.Controllers
     public class CountryController : Controller
     {
         [HttpGet("listar")]
-        public async Task<IActionResult> GetListadoContry()
+        public async Task<ActionResult> Get()
         {
-            return Ok(await Task.Run(() => new CountryDA().listado()));
+            var result = await Task.Run(() => new CountryDA().listado());
+            if (result == null)
+                return NotFound();
+            return Ok(result);
         }
 
         [HttpGet("ubicar")]
-        public async Task<IActionResult> GetUbicarCountry(Int32 IdCountry)
+        public async Task<IActionResult> Get(Int32 id)
         {
-            return Ok(await Task.Run(() => new CountryDA().Ubicar(IdCountry)));
+            var result = await Task.Run(() => new CountryDA().Ubicar(id));
+            if (result == null)
+                return NotFound();
+            return Ok(result);
+
         }
-        //[HttpPut("actualizar")]
-        //public async Task<IActionResult> PutActualizar(Solicitud reg)
-        //{
-        //    return Ok(await Task.Run(() => new solicitudDLAC().actualizar(reg)));
-        //}
-        //[HttpPost("registrar")]
-        //public async Task<IActionResult> PostRegistrar(Solicitud reg)
-        //{
-        //    return Ok(await Task.Run(() => new solicitudDLAC().insertar(reg)));
-        //}
+
+        [HttpPost("registrar")]
+        public async Task<IActionResult> Post(Country obj)
+        {
+            var result = await Task.Run(() => new CountryDA().Registrar(obj));
+            if (result == null)
+                return NotFound();
+            return Ok(result);
+        }
+
+        [HttpPut("actualizar")]
+        public async Task<IActionResult> Put(Country obj)
+        {
+            var result = await Task.Run(() => new CountryDA().Actualizar(obj));
+            if (result == null)
+                return NotFound();
+            return Ok(result);
+        }
+
+        [HttpDelete("Eliminar")]
+        public async Task<IActionResult> Delete(Int32 id)
+        {
+            var result = await Task.Run(() => new CountryDA().Eliminar(id));
+            if (result == null)
+                return NotFound();
+            return Ok(result);
+        }
     }
 }
