@@ -1,8 +1,25 @@
 version: '3.4'
-
+networks:
+  testapirestmvc:
 services:
+  sqldocker:
+    container_name: sql-server-docker
+    image: imagen_bdsql_test
+    ports:
+       - 1433:1433
+    environment:
+       - ACCEPT_EULA=Y
+       - MSSQL_SA_PASSWORD=*123Test*
+    networks:
+        - testapirestmvc
   webappapi:
     image: ${DOCKER_REGISTRY-}webappapi
     build:
       context: .
       dockerfile: WebAppAPI/Dockerfile
+    networks:
+        - testapirestmvc
+    depends_on:
+        - sqldocker
+    ports:
+        - 7000:8081
