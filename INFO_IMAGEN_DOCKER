@@ -1,0 +1,8 @@
+Para configurar la imagen de la BD que se encuentra en el Package he tenido en cuenta la siguiente configuración en el docker:
+docker run --name "SQLServer-Img" -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=*123Test*" -p 1433:1433 -d imagen_bdsql_img
+
+De manera que se pueda montar un contenedor de la imagen para que la consola NetFramework la pueda ver
+
+Para el caso del API REST CRUD he montado la imagen usando un docker-compose de manera que al compilar el WebApi cree su contanedor de BBDD y su contenedor del APP 
+
+
