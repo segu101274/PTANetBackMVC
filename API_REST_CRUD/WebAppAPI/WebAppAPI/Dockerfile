@@ -5,7 +5,7 @@ USER app
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
-ENV DB_CONNECTION_STRING="Server=192.168.1.51, 1433;Initial Catalog=Test;User=sa;Password=*123Test*; MultipleActiveResultSets = True;TrustServerCertificate= False;Encrypt= False"
+ENV DB_CONNECTION_STRING="Server=sqldocker;Initial Catalog=Test;User=sa;Password=*123Test*; MultipleActiveResultSets = True;TrustServerCertificate= False;Encrypt= False"
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
